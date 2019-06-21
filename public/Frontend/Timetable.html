@@ -1,0 +1,136 @@
+<link rel="stylesheet" href="maincss.css">
+
+
+
+
+
+<div class="sidebar">
+  <a  href="mainpage.html">Home</a>
+  <a href= "Timetable.html">Timetable viewer</a>
+  <a href="about.html">About</a>
+  <a href="Log-in.html">Log-Out</a>
+</div>
+
+<table id="Table" class="tg" align="center">
+  <tr>
+    <th class="tg-ae17" contenteditable="false">  Time      </th>
+    <th class="tg-ae17" contenteditable="false">  Monday    </th>
+    <th class="tg-xa3o" contenteditable="false">  Tuesday   </th>
+    <th class="tg-xa3o" contenteditable="false">  Wednesday </th>
+    <th class="tg-xa3o" contenteditable="false">  Thursday  </th>
+    <th class="tg-xa3o" contenteditable="false">  Friday    </th>
+    <th class="tg-xa3o" contenteditable="false">  Saturday  </th>
+    <th class="tg-xufm" contenteditable="false">  Sunday    </th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" contenteditable="false">9:00 AM</td>
+    <td class="tg-yw4l" contenteditable="true">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" align="right" ></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" contenteditable="false">10:00 AM</td>
+    <td class="tg-yw4l" contenteditable="true">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" align="right"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" contenteditable="false">11:00 AM</td>
+    <td class="tg-yw4l" contenteditable="true">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" align="right"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" contenteditable="false">12:00 AM</td>
+    <td class="tg-yw4l" contenteditable="true">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true"align="right">-</td>
+    <td class="tg-yw4l" align="right" ></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" contenteditable="false">1:00 PM</td>
+    <td class="tg-yw4l" contenteditable="true">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" align="right" ></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" contenteditable="false">2:00 PM</td>
+    <td class="tg-yw4l" contenteditable="true">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" align="right"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" contenteditable="false">3:00 PM</td>
+    <td class="tg-yw4l" contenteditable="true">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" align="right" ></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" contenteditable="false">4:00 PM</td>
+    <td class="tg-yw4l" contenteditable="true">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" align="right"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" contenteditable="false">5:00 PM</td>
+    <td class="tg-yw4l" contenteditable="true">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" align="right"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l" contenteditable="false">6:00 PM</td>
+    <td class="tg-3we0" contenteditable="true">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right" >-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" onkeyup="calculate(this.value)"contenteditable="true" align="right">-</td>
+    <td class="tg-yw4l" align="right" ></td>
+  </tr>
+</table>
+
+<button id="calculate"  class="btn">
+Save Timetable
+</button>
+
+<button id="calculate"  class="btn">
+Get Timetable
+</button>
+
+
+
